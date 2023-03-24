@@ -1,0 +1,12 @@
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\bin\Debug\aim-reflex-simulation.exe.config
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\bin\Debug\aim-reflex-simulation.exe
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\bin\Debug\aim-reflex-simulation.pdb
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\obj\Debug\aim-reflex-simulation.csproj.AssemblyReference.cache
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\obj\Debug\aim-reflex-simulation.csproj.SuggestedBindingRedirects.cache
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\obj\Debug\aim_reflex_simulation.Properties.Resources.resources
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\obj\Debug\aim-reflex-simulation.csproj.GenerateResource.cache
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\obj\Debug\aim-reflex-simulation.csproj.CoreCompileInputs.cache
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\obj\Debug\aim-reflex-simulation.exe
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\obj\Debug\aim-reflex-simulation.pdb
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\obj\Debug\aim_reflex_simulation.FrmChapterOne.resources
+C:\Users\ens_s\Desktop\Software\projects\aim-reflex-simulation\aim-reflex-simulation\obj\Debug\aim_reflex_simulation.FrmChapterTwo.resources
