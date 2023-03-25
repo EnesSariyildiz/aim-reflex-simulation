@@ -44,6 +44,7 @@
             this.chapter1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.chapter1ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.chapter1ToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.LblInform = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLeft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCenter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRight)).BeginInit();
@@ -115,6 +116,7 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // LblDeneme
@@ -125,7 +127,6 @@
             this.LblDeneme.Size = new System.Drawing.Size(35, 13);
             this.LblDeneme.TabIndex = 6;
             this.LblDeneme.Text = "label1";
-            this.LblDeneme.Visible = false;
             // 
             // menuStrip1
             // 
@@ -151,28 +152,38 @@
             // chapter1ToolStripMenuItem
             // 
             this.chapter1ToolStripMenuItem.Name = "chapter1ToolStripMenuItem";
-            this.chapter1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.chapter1ToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.chapter1ToolStripMenuItem.Text = "Chapter 1";
             this.chapter1ToolStripMenuItem.Click += new System.EventHandler(this.chapter1ToolStripMenuItem_Click);
             // 
             // chapter1ToolStripMenuItem1
             // 
             this.chapter1ToolStripMenuItem1.Name = "chapter1ToolStripMenuItem1";
-            this.chapter1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.chapter1ToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
             this.chapter1ToolStripMenuItem1.Text = "Chapter 2";
             this.chapter1ToolStripMenuItem1.Click += new System.EventHandler(this.chapter1ToolStripMenuItem1_Click);
             // 
             // chapter1ToolStripMenuItem2
             // 
             this.chapter1ToolStripMenuItem2.Name = "chapter1ToolStripMenuItem2";
-            this.chapter1ToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.chapter1ToolStripMenuItem2.Size = new System.Drawing.Size(125, 22);
             this.chapter1ToolStripMenuItem2.Text = "Chapter 3";
             // 
             // chapter1ToolStripMenuItem3
             // 
             this.chapter1ToolStripMenuItem3.Name = "chapter1ToolStripMenuItem3";
-            this.chapter1ToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.chapter1ToolStripMenuItem3.Size = new System.Drawing.Size(125, 22);
             this.chapter1ToolStripMenuItem3.Text = "Chapter 4";
+            // 
+            // LblInform
+            // 
+            this.LblInform.AutoSize = true;
+            this.LblInform.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblInform.Location = new System.Drawing.Point(466, 76);
+            this.LblInform.Name = "LblInform";
+            this.LblInform.Size = new System.Drawing.Size(178, 37);
+            this.LblInform.TabIndex = 8;
+            this.LblInform.Text = "Information";
             // 
             // FrmChapterOne
             // 
@@ -180,6 +191,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(188)))), ((int)(((byte)(185)))));
             this.ClientSize = new System.Drawing.Size(1199, 704);
+            this.Controls.Add(this.LblInform);
             this.Controls.Add(this.LblDeneme);
             this.Controls.Add(this.pictureBoxRight);
             this.Controls.Add(this.pictureBoxCenter);
@@ -222,6 +234,7 @@
         private System.Windows.Forms.ToolStripMenuItem chapter1ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem chapter1ToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem chapter1ToolStripMenuItem3;
+        private System.Windows.Forms.Label LblInform;
     }
 }
 
